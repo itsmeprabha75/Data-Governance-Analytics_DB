@@ -174,7 +174,7 @@ Timeline: January 2026
 
 
 
-### **Data Model (Optional)**
+### **Data Model**
 <img width="1089" height="708" alt="Screenshot 2026-01-29 200910" src="https://github.com/user-attachments/assets/d90ffe32-d6ff-472e-9295-37b99fccb8a3" />
 
 
