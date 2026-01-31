@@ -164,12 +164,12 @@ Timeline: January 2026
 
 ## **🖼️ Dashboard Preview**
 
-### **Page 1 – Risk & Financial Exposure**
+### **Page 1 – Governance Insights Overview**
 <img width="1166" height="655" alt="fp20-challenge-34Page1" src="https://github.com/user-attachments/assets/636c1b1d-d516-4cd5-bf66-5e4904d5214a" />
 
 
 
-### **Page 2 – Trust & Governance Maturity**
+### **Page 2 – Ownership & Governance Actions**
 <img width="1162" height="654" alt="fp20-challenge-34Page2" src="https://github.com/user-attachments/assets/652b1865-0643-4f8a-b468-070c2bf5c291" />
 
 
