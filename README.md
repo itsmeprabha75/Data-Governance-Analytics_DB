@@ -52,67 +52,85 @@ GDPR relevance, audit ratings, and compliance status
 The dataset was pre-structured and analyzed for governance insights rather than data cleansing.
 
 # **📄 Dashboard Structure**
-### **Page 1: Risk & Financial Exposure**
+### **Page 1: Governance Insights Overview**
 
 Purpose:
-To provide an executive-level overview of governance risk concentration and potential financial exposure across the enterprise.
+Provide an executive-level snapshot of governance risk, trust, and sensitivity across the organization.
 
-🔍 Key Visuals
+Key Elements:
 
-KPI Cards
+KPI Strip:
 
 Records Assessed
 
-Average Compliance Risk
+Avg Compliance Risk
 
-Estimated Financial Exposure (€)
+Avg Governance Maturity
 
-Percentage of High-Risk Records
+High-Risk Records (%)
 
-ZoomCharts Drill Down (Hero Visual)
+Critical Data Elements (%)
 
-Drill path: Business Domain → Table Name → Field Name
+ZoomCharts Drill Down – Governance Risk & Quality Signals
 
-Measures: Average Compliance Risk, Total Estimated Fine (€)
+Drill: Business Domain → Table → Field
 
-Compliance Risk by Business Domain
+Measures: Compliance Risk, Data Quality
 
-Highlights domains with the highest aggregated risk
+ZoomCharts Drill Down – Trust & Governance Maturity
 
-Insight Panel
+Drill: Data Classification → Critical Data Element → Audit Rating
 
-Summarizes key governance risk drivers in plain language
+Supporting Visuals:
+
+High-Risk Records by Domain
+
+Sensitive vs Non-Sensitive Data Distribution
+
+Filters:
+
+Business Domain
+
+Data Classification
+
+Compliance Status
 
 ### **🧭 Filters: Business Domain, GDPR Relevant, Compliance Status**
 
-### **Page 2: Trust & Governance Maturity**
+### **Page 2: Ownership & Governance Actions**
 
 Purpose:
-To assess data trustworthiness, governance maturity gaps, and their alignment with business impact.
+Translate insights into accountability and action.
 
-🔍 Key Visuals
+Key Elements:
 
-ZoomCharts Drill Down
+ZoomCharts Drill Down – Ownership Accountability Distribution
 
-Drill path: Data Classification → Critical Data Element → Audit Rating
+Drill: Data Owner → Business Domain → Table
 
-Measures: Average Governance Maturity, Average Data Quality
+Highlights ownership concentration and governance load
 
-Business Impact vs Governance Maturity (Scatter Plot)
+ZoomCharts Drill Down – Sensitive Data & Access Composition
 
-Identifies high-impact data with weak governance controls
+Drill: Data Classification → GDPR Relevance → Access Level
 
-Insight Panel
+Priority Fields Table:
 
-Highlights GDPR-relevant and critical data elements requiring priority attention
+Sorted to surface low maturity + high risk data elements
 
-### **🧭 Filters: Business Domain, GDPR Relevant, Compliance Status***
+90-Day Governance Action Plan:
+
+Definition standardization
+
+Ownership and stewardship assignment
+
+Strengthened access controls and audits
 
 ## **⚙️ Key Features**
 
 Interactive ZoomCharts Drill Down visuals for multi-level exploration
 
-Clear separation of Risk & Exposure vs Trust & Maturity
+Clear separation between insight discovery (Page 1) and action planning (Page 2)
 
 Executive-friendly KPIs and insights
 
@@ -147,11 +165,13 @@ Timeline: January 2026
 ## **🖼️ Dashboard Preview**
 
 ### **Page 1 – Risk & Financial Exposure**
-<img width="1164" height="738" alt="fp20-challenge-34Page1" src="https://github.com/user-attachments/assets/b0a4eaf9-5e0a-44c8-ae85-859e518db0ed" />
+<img width="1166" height="655" alt="fp20-challenge-34Page1" src="https://github.com/user-attachments/assets/636c1b1d-d516-4cd5-bf66-5e4904d5214a" />
+
 
 
 ### **Page 2 – Trust & Governance Maturity**
-<img width="1160" height="741" alt="fp20-challenge-34Page2" src="https://github.com/user-attachments/assets/94d2f8c5-6cb8-4bbb-9c39-b524de114432" />
+<img width="1162" height="654" alt="fp20-challenge-34Page2" src="https://github.com/user-attachments/assets/652b1865-0643-4f8a-b468-070c2bf5c291" />
+
 
 
 ### **Data Model (Optional)**
@@ -161,3 +181,9 @@ Timeline: January 2026
 ## **🙌 Acknowledgements**
 
 Thanks to FP20 Analytics and ZoomCharts for providing the dataset, tools, and opportunity to explore enterprise data governance through practical analytics.
+
+## **👤 Author**
+
+# **Aravind Teja Bastipadu**
+Designed and built using Power BI & ZoomCharts
+January 2026
